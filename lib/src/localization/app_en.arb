@@ -1,6 +1,8 @@
 {
-  "appTitle": "bebop",
+  "appTitle": "sncafe english",
   "@appTitle": {
     "description": "The title of the application"
-  }
+  },
+  "helloWorld": "Hello world",
+  "welcomeMessage": "Welcome!"
 }

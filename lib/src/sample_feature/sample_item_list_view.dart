@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 import 'sample_item.dart';
 import 'sample_item_details_view.dart';
@@ -8,7 +9,11 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 class SampleItemListView extends StatelessWidget {
   const SampleItemListView({
     super.key,
-    this.items = const [SampleItem(1), SampleItem(2), SampleItem(3)],
+    this.items = const [
+      SampleItem(1, name: 'bob'),
+      SampleItem(2, name: 'alice'),
+      SampleItem(3)
+    ],
   });
 
   static const routeName = '/';
@@ -49,18 +54,14 @@ class SampleItemListView extends StatelessWidget {
 
           return ListTile(
               title: Text('SampleItem ${item.id}'),
+              subtitle: Text(item.name),
               leading: const CircleAvatar(
                 // Display the Flutter Logo image asset.
                 foregroundImage: AssetImage('assets/images/flutter_logo.png'),
               ),
               onTap: () {
-                // Navigate to the details page. If the user leaves and returns to
-                // the app after it has been killed while running in the
-                // background, the navigation stack is restored.
-                Navigator.restorablePushNamed(
-                  context,
-                  SampleItemDetailsView.routeName,
-                );
+                // Navigate to the details page for the selected item.
+                context.go('${SampleItemDetailsView.routeName}/${item.id}');
               });
         },
       ),

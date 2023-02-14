@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "784384238453",
+    "project_id": "lingo-375714",
+    "storage_bucket": "lingo-375714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784384238453:android:3fd35c0db71568d44ce93c",
+        "android_client_info": {
+          "package_name": "com.example.bebop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784384238453-khdsh89pss6862q1udkp71ti6pnlfih7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDefW8t-NQJ5Tj0tE5oR_nW3cyhglC6H2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784384238453-khdsh89pss6862q1udkp71ti6pnlfih7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "784384238453-7tmjh3opfdkbc2sbamif7lq1pvnucmpr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lingo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784384238453:android:63fda55c9eda193e4ce93c",
+        "android_client_info": {
+          "package_name": "com.example.chat_lingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784384238453-khdsh89pss6862q1udkp71ti6pnlfih7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDefW8t-NQJ5Tj0tE5oR_nW3cyhglC6H2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784384238453-khdsh89pss6862q1udkp71ti6pnlfih7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "784384238453-7tmjh3opfdkbc2sbamif7lq1pvnucmpr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lingo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784384238453:android:61018424c4baf5b74ce93c",
+        "android_client_info": {
+          "package_name": "com.example.lingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784384238453-khdsh89pss6862q1udkp71ti6pnlfih7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDefW8t-NQJ5Tj0tE5oR_nW3cyhglC6H2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784384238453-khdsh89pss6862q1udkp71ti6pnlfih7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "784384238453-7tmjh3opfdkbc2sbamif7lq1pvnucmpr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lingo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
